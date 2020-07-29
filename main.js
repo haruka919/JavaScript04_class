@@ -117,10 +117,6 @@
       return arr;
     }
 
-    getCount() {
-      return this.count;
-    }
-
     setQuizzes(results) {
       this.quizInfo.quizzes.push(results);
     }
