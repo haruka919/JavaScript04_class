@@ -131,7 +131,7 @@
       document.querySelector('.container').appendChild(backHomeButton);
       backHomeButton.textContent = 'ホームに戻る';
       // ホームへ戻るボタンをクリックしたら、ホームボタンを削除・初期化処理を行う
-      backHomeButton.addEventListener('click', (e) => {
+      backHomeButton.addEventListener('click', () => {
         backHomeButton.remove();
         this.reset();
       })
